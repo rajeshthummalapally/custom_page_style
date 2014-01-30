@@ -4,3 +4,4 @@
 
 * Run <tt>rails s</tt> to start the rails server and visit http://localhost:3000 to access the application.
 
+* Using Angularjs, the values provided by the user for Color, Font-Size and Font-Family are injected into the preview label styles.
