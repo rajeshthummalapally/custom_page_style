@@ -1,0 +1,18 @@
+<h3>Setup</h3>
+<label name='page_title'>Page Title</label>
+<input type='text' ng-model="data.title" />
+<br/>
+<div class="user_input">
+  <h4>Enter your styles below</h4>
+  <label name='color'>Color</label>
+  <input type="text" ng-model="data.color" />
+  <br/> 
+  <label name='font'>Font Size</label>
+  <input type="text" ng-model="data.font_size" />
+  <br/> 
+  <label name='font_family'>Font Family</label>
+  <input type="text" ng-model="data.font_family" />
+  <h4>Preview</h4>
+  <label style="color:{{data.color}};font-size:{{data.font_size}};font-family:{{data.font_family}}">I am a label</label>
+</div>
+
